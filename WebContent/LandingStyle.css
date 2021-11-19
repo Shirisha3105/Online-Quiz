@@ -1,0 +1,89 @@
+@charset "ISO-8859-1";
+#bodyDiv
+{
+
+position: absolute;
+top: 0;
+left: 0;
+height: 100vh;
+width: 100%;
+
+  
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    
+}
+#internalDiv
+{
+height:200px;
+width:230px;
+margin: auto;
+margin-top:0%;
+}
+#externalDiv
+{
+margin:auto;
+opacity:0.8;
+filter :alpha(opacity=80);
+background-image: radial-gradient(circle, #9999, #454);
+box-shadow:5px 5px 5px grey;
+height:390px;
+width:330px;
+border-radius: 7px;
+}
+input[type=Email],input[type=password]{
+height:32px;
+width:220px;
+box-sizing: border-box;
+border-style: outset;
+border-radius: 3px;
+}
+input[type=submit]
+{
+cursor:pointer;
+height:30px;
+width:100px;
+background-image: radial-gradient(circle, #626567, #424949);
+margin-left:50px;
+border: none;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+input[type=submit]:hover
+{
+height:35px;
+width:120px;
+background-image: radial-gradient(circle, #626567, #424949);
+margin-left:50px;
+border: none;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+#texts
+{
+font-family:Sans-Serief;
+font-size:14px;
+font-weight:bold;
+}
+p{
+margin-top:-15px;
+margin-left:20%;
+font-size:14px;
+font-family:verdana;
+}
+a{
+font-style:italic;
+text-decoration:none;
+}
+h1{
+text-align:center;
+font-size:50px;
+}
+html, body {
+    height:100%;
+} 
